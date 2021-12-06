@@ -12,7 +12,9 @@ import Coodexx.DataBase.DataBase;
 import Coodexx.Kernel.PathInfo;
 import Coodexx.Kernel.Vars;
 import Coodexx.startup.ReadWriteIniFile;
+
 // this is aggelos branch -- Let's go to main!
+
 public class CoodexxInit
 {
 	private static boolean initialized = false;
@@ -25,7 +27,7 @@ public class CoodexxInit
 		try
 		{
 			
-			System.out.println("ini file path:" + new File(iniFile).getAbsolutePath());
+			System.out.println("1ini file path:" + new File(iniFile).getAbsolutePath());
 			System.out.println("Working directory: " + System.getProperty("user.dir"));
 			PathInfo.setPath(fileSys.CurDir());
 			new fileSys(PathInfo.getPath());
@@ -45,7 +47,8 @@ public class CoodexxInit
 			// File not found exception can be serialized, so we will throw an
 			// IOException
 			e.printStackTrace();
-			throw new IOException(e.getMessage());
+			throw new IOException(e.getMessage()+"merge");
+
 		}
 
 		System.out.println("initializAAAAA2222222222222222222222Aed:");
