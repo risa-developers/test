@@ -45,7 +45,7 @@ public class CoodexxInit
 			// File not found exception can be serialized, so we will throw an
 			// IOException
 			e.printStackTrace();
-			throw new IOException(e.getMessage()+"");
+			throw new IOException(e.getMessage()+"merge");
 
 		}
 	}
