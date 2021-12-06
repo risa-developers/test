@@ -25,7 +25,7 @@ public class CoodexxInit
 		try
 		{
 			
-			System.out.println("ini file path:" + new File(iniFile).getAbsolutePath());
+			System.out.println("1ini file path:" + new File(iniFile).getAbsolutePath());
 			System.out.println("Working directory: " + System.getProperty("user.dir"));
 			PathInfo.setPath(fileSys.CurDir());
 			new fileSys(PathInfo.getPath());
