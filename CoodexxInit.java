@@ -48,7 +48,7 @@ public class CoodexxInit
 			throw new IOException(e.getMessage());
 		}
 
-		System.out.println("initializAAAAAAed:");
+		System.out.println("initializAAAAA2222222222222222222222Aed:");
 	}
 	
 }
