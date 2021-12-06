@@ -13,6 +13,8 @@ import Coodexx.Kernel.PathInfo;
 import Coodexx.Kernel.Vars;
 import Coodexx.startup.ReadWriteIniFile;
 
+
+ // a change
 public class CoodexxInit
 {
 	private static boolean initialized = false;
