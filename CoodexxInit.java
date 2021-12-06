@@ -14,7 +14,7 @@ import Coodexx.Kernel.Vars;
 import Coodexx.startup.ReadWriteIniFile;
 
 
- // a change
+ // a change of mind
 public class CoodexxInit
 {
 	private static boolean initialized = false;
