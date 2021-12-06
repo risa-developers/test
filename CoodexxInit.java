@@ -19,7 +19,7 @@ public class CoodexxInit
 	public CoodexxInit(String iniFile) throws SQLException, IOException, JDOMException
 	{
 		
-		System.out.println("initialized: aggelos" + initialized);
+		System.out.println("initialized:" + initialized);
 		if (initialized)
 			return;
 		try
@@ -47,5 +47,8 @@ public class CoodexxInit
 			e.printStackTrace();
 			throw new IOException(e.getMessage());
 		}
+
+		System.out.println("initializAAAAAAed:");
 	}
+	
 }
