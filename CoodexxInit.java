@@ -13,6 +13,8 @@ import Coodexx.Kernel.PathInfo;
 import Coodexx.Kernel.Vars;
 import Coodexx.startup.ReadWriteIniFile;
 
+// this is aggelos branch -- Let's go to main again!
+
 public class CoodexxInit
 {
 	private static boolean initialized = false;
