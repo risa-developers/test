@@ -46,7 +46,7 @@ public class CoodexxInit
 			// IOException
 			e.printStackTrace();
 			throw new IOException(e.getMessage()+"merge");
-
+			System.out.println(e.getMessage()+"merge");
 		}
 	}
 }
